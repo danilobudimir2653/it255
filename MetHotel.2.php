@@ -1,4 +1,5 @@
-<?php
+<?php 
 
-echo "Hello This is Met Hotel ";
+	echo "This is Met hotel 2";
+
 ?>
