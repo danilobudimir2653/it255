@@ -1,0 +1,26 @@
+
+<div class="container">
+  <form role="form" [formGroup]="autoData" >
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="proizvodjac">Naziv proizvodjaca</label>
+        <input type="text" class="form-control" formControlName='proizvodjac'>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="model">Model:</label>
+        <input type="text" class="form-control" formControlName='model'>
+      </div>
+      <div class="form-group col-md-12">
+        <label for="zapremina">Zapremina motora</label>
+        <input type="text" class="form-control" formControlName='zapremina'>
+      </div>
+      <div class="form-group col-md-12">
+        <label for="snaga">Snaga Motora</label>
+        <input type="text" class="form-control" formControlName='snaga'>
+      </div>
+    </div>
+    <div class="row">
+      <button (click)="dodajAuto()" class="btn btn-danger col-md-12">Submit</button>
+    </div>
+  </form>
+</div>
